@@ -5306,7 +5306,7 @@ angular.module('ngCordova.plugins.media', [])
             q.notify({position: mediaPosition});
           }
 
-      }, 1000);
+      }, 100);
   }
 
   function clearTimer() {
